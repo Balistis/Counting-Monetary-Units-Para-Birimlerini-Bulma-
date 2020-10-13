@@ -1,6 +1,3 @@
-# Counting-Monetary-Units-Para-Birimlerini-Bulma-
-/Girilen para mikatarinda ne kadar" 1lira,50krs,25krs.10krs,5krs ve 1krs" oldugunu gosteren kod./
+# basit-java-ornekleri
 
-Iletisim: arasateser@gmail.com
-
-Telegram: @arasateser
+Bir mühendislik öğrencisi olarak kendim ve veri yapılarını anlamak isteyenler için elimden geldiğince veri yapıları konularını açıkladığım bir internet sitem var. Buradan benimle iletişime geçebilir ve diğer işlerime ulaşabilirsiniz: https://arasateser.wordpress.com/ . Görüşlerinizi "contact" kısmında görmekten mutluluk duyarım.
