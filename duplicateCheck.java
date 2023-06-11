@@ -1,20 +1,19 @@
+import java.util.HashMap;
+import java.util.Map;
+
 public class duplicateCheck {
     public static void main(String[] args) {
-        int dizi[] = { 1, 4, 4, 4, 5, 5, 6, 6 };
-        // int tekrarEden = Integer.MAX_VALUE;
-
-        for (int i = 0; i < dizi.length; i++) {
-            // int sayi1 = dizi[i];
-            for (int j = i + 1; j < dizi.length; j++) {
-                // int sayi2 = dizi[j];
-                if (dizi[i] == dizi[j]) {
-                    System.out.println(dizi[i]);
-                    // if (tekrarEden == dizi[i] || tekrarEden == dizi[j])
-                    // break;
-                    // } else
-                    // System.out.printf("%d\n", dizi[j]);
-                }
-            }
+        HashMap<Character, Integer> sayim = new HashMap<>();
+        String kelime = "java";
+        int sayac = 0;
+        // System.out.println(kelime.toCharArray());
+        for (char c : kelime.toCharArray()) {
+            sayim.put(c, sayim.getOrDefault(c, 0) + 1);
+        }
+        // System.out.println(sayim);
+        for (Map.Entry<Character, Integer> entry : sayim.entrySet()) {
+            if (entry.getValue() > 1)
+                System.out.printf("%c, %d", entry.getKey(), entry.getValue());
         }
     }
 }

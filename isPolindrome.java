@@ -14,21 +14,12 @@ public class isPolindrome {
     }
 
     public static void main(String[] args) {
-        // String word1 = "pencil"; // 0
-        // String word2 = "tool"; // 0
-        // String word3 = "asddsa";// 1
-        // String word4 = "zxcxz"; // 1
 
         String[] words = { "pencil", "tool", "asddsa", "zxcxz" };
 
         for (int j = 0; j < words.length; j++) {
             System.out.printf("%s, %b\n", words[j], polindromeMu(words[j]));
-
         }
-        // System.out.printf("\n%s,%b\n", word1, polindromeMu(words[0]));
-        // System.out.printf("%s,%b\n", word2, polindromeMu(word2));
-        // System.out.printf("%s,%b\n", word3, polindromeMu(word3));
-        // System.out.printf("%s,%b\n", word4, polindromeMu(word4));
     }
 }
 
