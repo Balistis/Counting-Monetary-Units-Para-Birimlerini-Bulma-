@@ -1,3 +1,3 @@
-# basit-java-ornekleri
+#java-examples
 
-Bir mühendislik öğrencisi olarak kendim ve veri yapılarını anlamak isteyenler için elimden geldiğince veri yapıları konularını açıkladığım bir internet sitem var. Buradan benimle iletişime geçebilir ve diğer işlerime ulaşabilirsiniz: https://arasateser.wordpress.com/ . Görüşlerinizi "contact" kısmında görmekten mutluluk duyarım.
+As a computer engineering student This is my practice field to get better understanding in java and data structers. You can contact me here and find my other works: https://arasateser.wordpress.com/ . I would be happy to see your comments in the "contact" section.
