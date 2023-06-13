@@ -1,14 +1,13 @@
 public class reverseStringIterative {
-    // How to reverse a given String? java write recursive and iterative solutions.
-    // For example, if a given input is "abcd," then your function should return
-    // "dcba".
     public static void main(String[] args) {
-        String kelime = "aras";
-        StringBuilder tersKelime = new StringBuilder();
+        String cumle = "aras ateser"; //string to reverse
+        StringBuilder tersCumle = new StringBuilder(); //string to create the new string
 
-        for (int i = kelime.length() - 1; i >= 0; i--) {
-            tersKelime.append(kelime.charAt(i));
+        for (int i = cumle.length() - 1; i >= 0; i--) {
+            tersCumle.append(cumle.charAt(i)); //starting from the last character of the string and add it to the new string
+            //System.out.println(tersCumle); //uncomment to observe the process
         }
-        System.out.println(tersKelime);
+        System.out.println(tersCumle);
     }
+
 }

@@ -1,11 +1,11 @@
 public class largestNumber {
     public static void main(String[] args) {
-        int[] sayiDizi = { 21, 11, 32, 5, 9, 1 };
-        int max = Integer.MIN_VALUE;
+        int[] sayiDizi = {21, 11, 32, 5, 9, 1}; //integer array to check
+        int max = Integer.MIN_VALUE; //declaring the smallest integer
 
-        for (int i = 0; i < sayiDizi.length; i++) {
-            if (max < sayiDizi[i]) {
-                max = sayiDizi[i];
+        for (int j : sayiDizi) {
+            if (max < j) {
+                max = j; //if the current number is bigger than the max number change it and continue searching
             }
         }
         System.out.println(max);

@@ -1,5 +1,3 @@
-import javax.xml.transform.Source;
-
 public class StringRotation {
     // How to check if two strings are rotations of each other?
     // Write an efficient program to test if two given String is a rotation of each
@@ -9,7 +7,7 @@ public class StringRotation {
         String str1 = "MADO";
         String str2 = "DOMA";
 
-        String strFinal = str1 + str1;
+        String strFinal = str1 + str1; // typing the "main" word 2 times and checking if the other word is in there
 
         if (strFinal.contains(str2))
             System.out.println("true");

@@ -11,7 +11,8 @@ public class duplicateCheck3 {
             charCount[str.charAt(i)]++;
         }
 
-        for (int i = 0; i < charCount.length; i++) { //printing out the all ASCII array and repeating characters in the memory
+        for (int i = 0; i < charCount.length; i++) { //printing out the all ASCII array
+            // and repeating characters in the memory
             System.out.printf("%d - %d\n", i, charCount[i]);
         }
 
@@ -21,7 +22,12 @@ public class duplicateCheck3 {
             char c = str.charAt(i); //checking each character one by one
             if (charCount[c] > 1) { //checking if the character has more than 1 value in its memory
                 System.out.print(c + " ");
-                charCount[c] = 0; // Marking the current character as 0, so when character is encountered again it won't print it out again. Because if we do not change it as 0, duplicated values will be shown as much as their duplicated characters. By doing that when we encounter a value that duplicated and printed, we won't print it again
+                charCount[c] = 0; // Marking the current character as 0,
+                // so when character is encountered again it won't print
+                // it out again. Because if we do not change it as 0,
+                // duplicated values will be shown as much as their
+                // duplicated characters. By doing that when we encounter
+                // a value that duplicated and printed, we won't print it again
             }
         }
     }
