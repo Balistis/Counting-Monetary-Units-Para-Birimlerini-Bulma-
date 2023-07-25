@@ -6,7 +6,7 @@ public class duplicateCheckN {
         String kelime = "java";
         int[] ASCII = new int[256]; //characters being counted are from the ASCII character set
 
-        // Count the occurrence of each character
+        // Count the occurrence of each character 
         for (int i = 0; i < kelime.length(); i++) {
             //Calling a character into an ASCII array will bring its ASCII value: {97 - a}
             //if a character is repeating the value in that memory will increase by one
